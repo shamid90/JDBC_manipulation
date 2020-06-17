@@ -1,6 +1,6 @@
-The goal of the programm is to connect to database (in this case Postgres) and manipulate data with own methods in Java. 
+The goal of the program is to connect to database (in this case Postgres) and manipulate data with own methods in Java. 
 
-All objects in this programm are "immutable objects".
+All objects in this program are "immutable objects".
 
 To connect to the database, the files in the class should be changed according to your own database server.
 For example:
@@ -14,6 +14,6 @@ for that COMMIT is necessary.
 
 To see how the table is created check the "tennis_player_table.sql".
 
-The programm provides exmples of how the methods work.
+The program provides examples of how the methods work.
 
 
