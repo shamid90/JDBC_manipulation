@@ -179,7 +179,7 @@ class DBPlayer {
 	}
 	static List<DBPlayer> search(Connection c, Optional<String> first_name, Optional<String> last_name) throws SQLException {
 		// returns All Players that have BOTH that first_name and that last_name. If both are empty, then just
-		//search(c, empty, empty) =:= all(c)
+		// search(c, empty, empty) =:= all(c)
 		List<DBPlayer> li = new ArrayList<>();
 		if(first_name != null && last_name != null && first_name.isPresent() && last_name.isPresent()) {
 			String query="SELECT * FROM tennis_player WHERE first_name=? AND last_name=? ORDER BY 1;";
